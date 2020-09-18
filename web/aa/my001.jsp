@@ -18,8 +18,8 @@
     DateTimeFormatter formatter=DateTimeFormatter.ofPattern("yyyy年MM月dd日；hh时mm分ss秒");
     String now=formatter.format(LocalDateTime.now());
 %>
-<h3>现在时间为：<%out.println(now); %></h3>
-<h3>现在时间为：<%=now%></h3>
+<h3>现在时间是：<%out.println(now); %></h3>
+<h3>现在时间是：<%=now%></h3>
 <h3>Nan Jing Vocational University Of Industry Technology的简称<%=INFO%></h3>
 <%!
     int add(int x,int y){
