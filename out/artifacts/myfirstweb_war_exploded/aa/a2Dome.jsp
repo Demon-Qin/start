@@ -20,5 +20,7 @@
 <%--输出属性值--%>
 <h2>姓名：<%=name%></h2>
 <h2>年龄：<%=age%></h2>
+<a href="a3Dome.jsp">获取数据并显示数据</a>
+<%--<jsp:forward page="a3Dome.jsp"/>--%>
 </body>
 </html>
